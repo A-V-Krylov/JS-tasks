@@ -8,4 +8,5 @@ let arr = [`cat`, `dog`, `parrot`, `horse`, `fish`, `chicken`, `lion`];
 console.log(arr.indexOf('fish')); //4
 arr.splice(4, 1);
 arr.shift();
-console.log(arr); //["dog", "parrot", "horse", "chicken", "lion"]
+arr.splice(3, 2);
+console.log(arr); //["dog", "parrot", "horse"]
