@@ -4,6 +4,6 @@
 Можем ли заменить слово JavaScript на 'Frontend`?*/
 
 let str = `Я изучаю JavaScipt`;
-str = str.replace('изучаю', 'изучал');
+str = str.replace('ю', 'л');
 console.log(str);// Я изучал JavaScipt
 str = str.replace('JavaScipt', 'Frontend')// Я изучал Frontend
